@@ -1,13 +1,14 @@
 ## Table of contents
 * [General info](#general-info)
-* [How I build the porject](#architecture-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+
+![](wather-forecast.gif)
 
 ## General info
 This is application build for weather forecast using  [openweathermap](https://openweathermap.org/) api. It display the next 15 hours weather forecast since the next 5 days is need to have an paid account.
 
-## Architecture
+##### How I build the porject
 Using laravel, I created a endpoint for getting the weather forecast using openweathermap, then on react I called the  endpoint get forecast from laravel using axios. 
 	
 ## Technologies
@@ -122,4 +123,9 @@ Starting Laravel development server: http://127.0.0.1:8000
 To run unit testing.
 ```bash
 php artisan test
+```
+
+To run check weather forecast on console.
+php artisan weather:forecast "city name" or "city name, city name"
+```bash
 ```
