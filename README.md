@@ -128,4 +128,5 @@ php artisan test
 To run check weather forecast on console.
 php artisan weather:forecast "city name" or "city name, city name"
 ```bash
+php artisan weather:forecast
 ```
