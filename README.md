@@ -3,11 +3,10 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 
-![](weather-forecast.gif)
 
 ## General info
 This is application build for weather forecast using  [openweathermap](https://openweathermap.org/) api. It display the next 15 hours weather forecast since the next 5 days is need to have an paid account.
-
+![](weather-forecast.gif)
 ##### How I build the porject
 Using laravel, I created a endpoint for getting the weather forecast using openweathermap, then on react I called the  endpoint get forecast from laravel using axios. 
 	
