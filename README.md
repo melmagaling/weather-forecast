@@ -2,6 +2,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Usage](#usage)
 
 
 ## General info
