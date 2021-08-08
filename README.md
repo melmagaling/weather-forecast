@@ -1,63 +1,125 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## Table of contents
+* [General info](#general-info)
+* [How I build the porject](#architecture-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## General info
+This is application build for weather forecast using  [openweathermap](https://openweathermap.org/) api. It display the next 15 hours weather forecast since the next 5 days is need to have an paid account.
 
-## About Laravel
+## Architecture
+Using laravel, I created a endpoint for getting the weather forecast using openweathermap, then on react I called the  endpoint get forecast from laravel using axios. 
+	
+## Technologies
+Project is created with:
+* Laravel 8
+* React
+* Tailwind CSS
+* Composer
+* Node 12.3
+	
+## Setup
+Before jumping in, you'll want to make sure you have the system requirements met:
+- PHP ([Installation Guide](https://www.php.net/manual/en/install.php))
+- Composer ([Installation Guide](https://getcomposer.org/doc/00-intro.md))
+- Laravel ([Installation Guide](https://laravel.com/docs/8))
+- Node v12.3
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+To clone the project:
+```bash
+$ git clone git@github.com:melmagaling/weather-forecast.git
+$ cd ../weather-forecast
+```
+To install PHP dependancies:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+```bash
+composer install
+```
+And JS dependancies:
+```bash
+npm install
+```
+To test on a BigCommerce store, you can create a free trial on bigcommerce.com or request a free sandbox store by [signing up to be a tech partner](https://www.bigcommerce.com/partners/).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Usage
+To compile JS assets:
+```bash
+npm run dev
+```
+To compile the components then watch the files and recompile when one of them changes
+```bash
+npm run watch
+```
+To launch the project on your local
+```bash
+php artisan serve
+Starting Laravel development server: http://127.0.0.1:8000
+```
+To run unit testing.
+```bash
+php artisan test
+```
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Table of contents
+* [General info](#general-info)
+* [How I build the porject](#architecture-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-## Laravel Sponsors
+## General info
+This is application build for weather forecast using  [openweathermap](https://openweathermap.org/) api. It display the next 15 hours weather forecast since the next 5 days is need to have an paid account.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Architecture
+Using laravel, I created a endpoint for getting the weather forecast using openweathermap, then on react I called the  endpoint get forecast from laravel using axios. 
+	
+## Technologies
+Project is created with:
+* Laravel 8
+* React
+* Tailwind CSS
+* Composer
+* Node 12.3
+	
+## Setup
+Before jumping in, you'll want to make sure you have the system requirements met:
+- PHP ([Installation Guide](https://www.php.net/manual/en/install.php))
+- Composer ([Installation Guide](https://getcomposer.org/doc/00-intro.md))
+- Laravel ([Installation Guide](https://laravel.com/docs/8))
+- Node v12.3
 
-### Premium Partners
+To clone the project:
+```bash
+$ git clone git@github.com:melmagaling/weather-forecast.git
+$ cd ../weather-forecast
+```
+To install PHP dependancies:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
+```bash
+composer install
+```
+And JS dependancies:
+```bash
+npm install
+```
+To test on a BigCommerce store, you can create a free trial on bigcommerce.com or request a free sandbox store by [signing up to be a tech partner](https://www.bigcommerce.com/partners/).
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Usage
+To compile JS assets:
+```bash
+npm run dev
+```
+To compile the components then watch the files and recompile when one of them changes
+```bash
+npm run watch
+```
+To launch the project on your local
+```bash
+php artisan serve
+Starting Laravel development server: http://127.0.0.1:8000
+```
+To run unit testing.
+```bash
+php artisan test
+```
