@@ -104,7 +104,6 @@ And JS dependancies:
 ```bash
 npm install
 ```
-To test on a BigCommerce store, you can create a free trial on bigcommerce.com or request a free sandbox store by [signing up to be a tech partner](https://www.bigcommerce.com/partners/).
 
 ## Usage
 To compile JS assets:
